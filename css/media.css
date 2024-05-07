@@ -1,0 +1,196 @@
+@media (min-width: 640px) {
+   
+
+     /* form input & button */
+     .footer-center-part form {
+        flex-wrap: nowrap;
+    }
+    .footer-center-part input {
+        flex-basis: 75%;
+    }
+    .footer-center-part button {
+        flex-basis: 25%;
+        margin-top: 0;
+    }
+
+
+   
+
+
+}
+
+@media (min-width: 768px) {
+
+    /* chefs */
+    .container-chefs {
+        flex-wrap: wrap;
+    }
+
+    .chef {
+        flex-basis: 48%;
+
+
+    }
+
+    /* *********************************** */
+    
+      /* galary */
+     
+    .container-gallery .meals {
+        flex-basis: 50%;
+
+    }
+   
+    .container-gallery .right,.nott-show{
+        display: none;
+    }
+
+    /* ********************* */
+    /* contact us */
+    .contact-info-container .info {
+        flex-basis: 49.3%;
+    }
+
+
+    /* ********************** */
+    /* footer */
+    .footer-container {
+        flex-wrap: wrap;
+        gap:20px 10px;
+    }
+    
+
+    .footer-left-part {
+        flex: 1 1 49%;
+        /* flex-basis: 49%; */
+        order: 1;
+    }
+    
+    .footer-center-part {
+        /* flex-basis: 100%; */
+        flex: 1 1 49%;
+        order: 3;
+        margin-top: 20px;
+    }
+    
+    .footer-right-part {
+        flex: 1 1 49%;
+        /* flex-basis: 49%; */
+        order: 2;
+    }
+
+   
+
+    
+
+
+}
+
+@media (min-width: 1024px) {
+    
+
+    .left-part {
+        text-align: left;
+
+        flex-basis: auto;
+    }
+
+    .right-part {
+        flex-basis: 40%;
+        order: 2;
+
+
+
+    }
+
+    .btn-links {
+        margin: 50px 0;
+    }
+
+    .left-part .book-a-table {
+        border-top-left-radius: 0;
+    }
+
+    /* ************************* */
+
+
+    /* chefs */
+    .container-chefs {
+        flex-wrap: nowrap;
+    }
+
+    .chef {
+        flex-basis: 33.3333%;
+        margin-left: 30px;
+    }
+    /* ************************ */
+    /* galary */
+    .container-gallery{
+        flex-wrap:wrap ;
+    }
+    .container-gallery .meals {
+        flex-basis: 33.3333%;
+    }
+    /* to show some photoes and hidden others */
+    .container-gallery .right,.nott-show{
+        display: inline-block;
+    }
+    .not-show{
+        display:none;
+    }
+    /* ********************* */
+    /* contact us */
+    /* form */
+    .form-container input {
+
+        flex-basis: 49.3%;
+    }
+
+    
+
+    
+
+    
+
+
+}
+
+@media (min-width: 1280px) {
+    /* header */
+    /* nav ul  */
+    .nav-ul {
+        visibility: visible;
+    }
+    .mode i.menu{
+        display: none;
+    }
+    /* *************************************** */
+    /* footer */
+    .footer-container {
+        flex-wrap: nowrap;
+        column-gap:20px;
+    }
+
+    .footer-left-part {
+        flex-basis: 25%;
+        order: 1;
+    }
+    
+    .footer-center-part {
+        margin-top: 0;
+        flex-basis: 50%;
+        order: 2;
+    }
+    
+    .footer-right-part {
+        flex-basis: 25%;
+        order: 3;
+    }
+    /* ******************************* */
+
+ 
+
+
+}
+
+

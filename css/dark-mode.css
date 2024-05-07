@@ -1,0 +1,46 @@
+body:has(.mode input:checked){
+   background-color: #202020;
+
+}
+
+:root:has(.mode input:checked){
+   --nav-bar-background:#171717;
+   --grey-background:#252525;
+   --red-color-ce: #c17e1f;
+   --background--selection:#c17e1f;
+   --red-color-e5: #c17e1f;
+   --logo-color:#fff;
+   --nav-bar-links-hover:#fff;
+   --home-text-color-h2:#fff;
+   --home-book-button:#171717;
+   --home-book-button-bg-hover:#D78C23;
+   --chef-name:#fff;
+   --h4-color:#fff;
+   --contact-info-bg:#0D0D0D;
+   --border-form:#0D0D0D;
+   
+}
+
+body:has(.mode input:checked) .nav-bar
+,body:has(.mode input:checked) .chef
+,body:has(.mode input:checked) .form-container{
+   box-shadow:none;
+}
+
+body:has(.mode input:checked) .form-container
+,body:has(.mode input:checked) .chef{
+   background-color: #171717;
+}
+body:has(.mode input:checked) .chef picture::before{
+   background-image: url(../images/wave-dark.svg);
+}
+body:has(.mode input:checked) .mode .light{
+   display: inline-block;
+   color: #fff;
+} 
+body:has(.mode input:checked) .mode .dark{
+   display: none;
+}
+body:has(.mode input:checked) .menu{
+   color: #fff;
+}
